@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeTracker", "TimeTracker\TimeTracker.csproj", "{39778A8E-0499-4607-A26D-BD523C649BB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Native", "Native\Native.csproj", "{05B177AB-7C2E-4844-9B01-85FDBB85BDCA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensions", "Extensions\Extensions.csproj", "{D0F7ECBE-9EC0-4A8E-B35A-F8E086E7DFBF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{2BE2C79F-72CA-4C00-8D3F-3F218FE02D5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{46D3C905-BE84-4DB8-B954-9F1EB8C6F9AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.WindowsCoverage", "Modules\Module.WindowsCoverage\Module.WindowsCoverage.csproj", "{211BC218-76FB-449A-8C5A-3448095AF1D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.ElectronCoverage", "Modules\Module.ElectronCoverage\Module.ElectronCoverage.csproj", "{EC9695D5-227B-4DE0-B50A-5F624A32B981}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39778A8E-0499-4607-A26D-BD523C649BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39778A8E-0499-4607-A26D-BD523C649BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39778A8E-0499-4607-A26D-BD523C649BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39778A8E-0499-4607-A26D-BD523C649BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B177AB-7C2E-4844-9B01-85FDBB85BDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B177AB-7C2E-4844-9B01-85FDBB85BDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B177AB-7C2E-4844-9B01-85FDBB85BDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B177AB-7C2E-4844-9B01-85FDBB85BDCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F7ECBE-9EC0-4A8E-B35A-F8E086E7DFBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F7ECBE-9EC0-4A8E-B35A-F8E086E7DFBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F7ECBE-9EC0-4A8E-B35A-F8E086E7DFBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F7ECBE-9EC0-4A8E-B35A-F8E086E7DFBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE2C79F-72CA-4C00-8D3F-3F218FE02D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE2C79F-72CA-4C00-8D3F-3F218FE02D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE2C79F-72CA-4C00-8D3F-3F218FE02D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE2C79F-72CA-4C00-8D3F-3F218FE02D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{211BC218-76FB-449A-8C5A-3448095AF1D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{211BC218-76FB-449A-8C5A-3448095AF1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{211BC218-76FB-449A-8C5A-3448095AF1D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{211BC218-76FB-449A-8C5A-3448095AF1D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC9695D5-227B-4DE0-B50A-5F624A32B981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC9695D5-227B-4DE0-B50A-5F624A32B981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC9695D5-227B-4DE0-B50A-5F624A32B981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC9695D5-227B-4DE0-B50A-5F624A32B981}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{211BC218-76FB-449A-8C5A-3448095AF1D2} = {46D3C905-BE84-4DB8-B954-9F1EB8C6F9AA}
+		{EC9695D5-227B-4DE0-B50A-5F624A32B981} = {46D3C905-BE84-4DB8-B954-9F1EB8C6F9AA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88937195-BEFC-4F0A-B3A4-681B79F6545D}
+	EndGlobalSection
+EndGlobal
